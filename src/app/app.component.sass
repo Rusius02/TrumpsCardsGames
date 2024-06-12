@@ -1,0 +1,65 @@
+// styles.sass
+
+body
+  font-family: Arial, sans-serif
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 100vh
+  background-color: #f0f0f0
+
+#game-board
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.card
+  width: 200px
+  background-color: white
+  border: 1px solid #ccc
+  margin: 10px
+  padding: 20px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+  .card-image
+    width: 100%
+    height: auto
+    margin-bottom: 10px
+
+  .card-properties
+    display: grid
+    grid-template-columns: 1fr 1fr
+    gap: 10px
+
+    .property
+      display: flex
+      justify-content: space-between
+
+      span
+        font-weight: bold
+
+#controls
+  margin-top: 20px
+
+button
+  margin: 5px
+  padding: 10px 20px
+  cursor: pointer
+
+@keyframes shuffle
+  0%
+    transform: translateX(0)
+  25%
+    transform: translateX(20px)
+  50%
+    transform: translateX(-20px)
+  75%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0)
+
+.shuffle
+  animation: shuffle 0.5s ease-in-out infinite

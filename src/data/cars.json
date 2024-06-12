@@ -1,0 +1,324 @@
+{
+  "cars": [
+    {
+      "cat": "A1",
+      "model": "Bowler Wildcat",
+      "max_speed": 195,
+      "zero_to_hundred": 4.8,
+      "power": 136,
+      "engine_size": 4000,
+      "num_cylinders": 8,
+      "regime": 2600
+    },
+    {
+      "cat": "A2",
+      "model": "Schlesser Ford Buggy Raid X202",
+      "max_speed": 180,
+      "zero_to_hundred": 5,
+      "power": 191,
+      "engine_size": 3000,
+      "num_cylinders": 6,
+      "regime": 6500
+    },
+    {
+      "cat": "A3",
+      "model": "Nissan T1",
+      "max_speed": 190,
+      "zero_to_hundred": 6.5,
+      "power": 136,
+      "engine_size": 2199,
+      "num_cylinders": 6,
+      "regime": 5900
+    },
+    {
+      "cat": "A4",
+      "model": "Mitsubishi Pajero",
+      "max_speed": 182,
+      "zero_to_hundred": 5.4,
+      "power": 147,
+      "engine_size": 3200,
+      "num_cylinders": 4,
+      "regime": 4000
+    },
+    {
+      "cat": "B1",
+      "model": "Hock Buggy",
+      "max_speed": 182,
+      "zero_to_hundred": 6,
+      "power": 140,
+      "engine_size": 1999,
+      "num_cylinders": 4,
+      "regime": 5900
+    },
+    {
+      "cat": "B2",
+      "model": "Nissan P2",
+      "max_speed": 185,
+      "zero_to_hundred": 6.3,
+      "power": 151,
+      "engine_size": 2895,
+      "num_cylinders": 6,
+      "regime": 5650
+    },
+    {
+      "cat": "B3",
+      "model": "VW Tarek T2",
+      "max_speed": 188,
+      "zero_to_hundred": 5.3,
+      "power": 160,
+      "engine_size": 1896,
+      "num_cylinders": 4,
+      "regime": 4250
+    },
+    {
+      "cat": "B4",
+      "model": "Mitsubishi L200",
+      "max_speed": 177,
+      "zero_to_hundred": 6.9,
+      "power": 141,
+      "engine_size": 2477,
+      "num_cylinders": 6,
+      "regime": 4000
+    },
+    {
+      "cat": "C1",
+      "model": "Nissan Terrano",
+      "max_speed": 197,
+      "zero_to_hundred": 5.1,
+      "power": 180,
+      "engine_size": 3498,
+      "num_cylinders": 6,
+      "regime": 5600
+    },
+    {
+      "cat": "C2",
+      "model": "Mitsubishi Pajero Evolution",
+      "max_speed": 198,
+      "zero_to_hundred": 4.8,
+      "power": 199,
+      "engine_size": 3497,
+      "num_cylinders": 6,
+      "regime": 6000
+    },
+    {
+      "cat": "C3",
+      "model": "Honda Civic Buggy",
+      "max_speed": 178,
+      "zero_to_hundred": 6,
+      "power": 140,
+      "engine_size": 1999,
+      "num_cylinders": 4,
+      "regime": 5500
+    },
+    {
+      "cat": "C4",
+      "model": "Mitsubishi T2",
+      "max_speed": 195,
+      "zero_to_hundred": 7.1,
+      "power": 107,
+      "engine_size": 1995,
+      "num_cylinders": 4,
+      "regime": 5600
+    },
+    {
+      "cat": "D1",
+      "model": "X-raid BMW X5 Rally Raid",
+      "max_speed": 195,
+      "zero_to_hundred": 4.8,
+      "power": 199,
+      "engine_size": 2926,
+      "num_cylinders": 6,
+      "regime": 4000
+    },
+    {
+      "cat": "D2",
+      "model": "Buggy SMG",
+      "max_speed": 180,
+      "zero_to_hundred": 6,
+      "power": 143,
+      "engine_size": 1998,
+      "num_cylinders": 4,
+      "regime": 5600
+    },
+    {
+      "cat": "D3",
+      "model": "VW Touareg",
+      "max_speed": 185,
+      "zero_to_hundred": 6,
+      "power": 175,
+      "engine_size": 2299,
+      "num_cylinders": 5,
+      "regime": 2800
+    },
+    {
+      "cat": "D4",
+      "model": "Nissan Pick-up",
+      "max_speed": 197,
+      "zero_to_hundred": 4.7,
+      "power": 206,
+      "engine_size": 3498,
+      "num_cylinders": 6,
+      "regime": 5500
+    },
+    {
+      "cat": "E1",
+      "model": "Citroën ZX Ralley",
+      "max_speed": 223,
+      "zero_to_hundred": 5.2,
+      "power": 257,
+      "engine_size": 2198,
+      "num_cylinders": 4,
+      "regime": 6500
+    },
+    {
+      "cat": "E2",
+      "model": "X-trail Nissan Dessoude",
+      "max_speed": 190,
+      "zero_to_hundred": 5.3,
+      "power": 200,
+      "engine_size": 3500,
+      "num_cylinders": 6,
+      "regime": 5000
+    },
+    {
+      "cat": "E3",
+      "model": "Mercedes ML T1",
+      "max_speed": 197,
+      "zero_to_hundred": 5.1,
+      "power": 173,
+      "engine_size": 3724,
+      "num_cylinders": 6,
+      "regime": 5750
+    },
+    {
+      "cat": "E4",
+      "model": "Mitsubishi L2000 T3",
+      "max_speed": 205,
+      "zero_to_hundred": 5.8,
+      "power": 165,
+      "engine_size": 2998,
+      "num_cylinders": 6,
+      "regime": 6300
+    },
+    {
+      "cat": "F1",
+      "model": "MEGA Desert",
+      "max_speed": 203,
+      "zero_to_hundred": 5.7,
+      "power": 160,
+      "engine_size": 2900,
+      "num_cylinders": 6,
+      "regime": 5980
+    },
+    {
+      "cat": "F2",
+      "model": "KIA",
+      "max_speed": 200,
+      "zero_to_hundred": 5.6,
+      "power": 162,
+      "engine_size": 3480,
+      "num_cylinders": 6,
+      "regime": 5600
+    },
+    {
+      "cat": "F3",
+      "model": "VW Buggy",
+      "max_speed": 235,
+      "zero_to_hundred": 5.1,
+      "power": 169,
+      "engine_size": 2550,
+      "num_cylinders": 5,
+      "regime": 6400
+    },
+    {
+      "cat": "F4",
+      "model": "Ford Ranger",
+      "max_speed": 225,
+      "zero_to_hundred": 5.4,
+      "power": 184,
+      "engine_size": 4490,
+      "num_cylinders": 8,
+      "regime": 5100
+    },
+    {
+      "cat": "G1",
+      "model": "Mercedes ML430",
+      "max_speed": 210,
+      "zero_to_hundred": 5.9,
+      "power": 136,
+      "engine_size": 2395,
+      "num_cylinders": 6,
+      "regime": 5500
+    },
+    {
+      "cat": "G2",
+      "model": "Nissan Rallye Pick-up",
+      "max_speed": 198,
+      "zero_to_hundred": 5.2,
+      "power": 213,
+      "engine_size": 3499,
+      "num_cylinders": 6,
+      "regime": 5000
+    },
+    {
+      "cat": "G3",
+      "model": "Schlesser Buggy",
+      "max_speed": 230,
+      "zero_to_hundred": 5,
+      "power": 235,
+      "engine_size": 1998,
+      "num_cylinders": 4,
+      "regime": 5900
+    },
+    {
+      "cat": "G4",
+      "model": "Chevrolet ProTruck",
+      "max_speed": 205,
+      "zero_to_hundred": 5.4,
+      "power": 221,
+      "engine_size": 5700,
+      "num_cylinders": 8,
+      "regime": 5200
+    },
+    {
+      "cat": "H1",
+      "model": "Mitsubishi Pajero T2",
+      "max_speed": 230,
+      "zero_to_hundred": 5.1,
+      "power": 257,
+      "engine_size": 2199,
+      "num_cylinders": 4,
+      "regime": 5900
+    },
+    {
+      "cat": "H2",
+      "model": "Suzuki JCJ",
+      "max_speed": 175,
+      "zero_to_hundred": 7.2,
+      "power": 110,
+      "engine_size": 1995,
+      "num_cylinders": 4,
+      "regime": 5600
+    },
+    {
+      "cat": "H3",
+      "model": "Mitsubishi Pajero Montero",
+      "max_speed": 190,
+      "zero_to_hundred": 4.9,
+      "power": 199,
+      "engine_size": 3497,
+      "num_cylinders": 6,
+      "regime": 6000
+    },
+    {
+      "cat": "H4",
+      "model": "IPSO",
+      "max_speed": 220,
+      "zero_to_hundred": 5.2,
+      "power": 243,
+      "engine_size": 2198,
+      "num_cylinders": 4,
+      "regime": 6300
+    }
+  ]
+}
