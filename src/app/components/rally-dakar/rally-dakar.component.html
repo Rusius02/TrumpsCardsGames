@@ -1,33 +1,27 @@
 <div id="game-board">
     <div id="player-card" class="card">
-      <div class="card-image"> <!-- Placeholder for the image -->
-      </div>
-      <div class="card-properties">
-        <div class="property"> {{ playerCard?.cat }}</div>
-        <div class="property"> {{ playerCard?.model }}</div>
-        <div class="property"><span>Max km/h:</span> {{ playerCard?.max_speed }}</div>
-        <div class="property"><span>ccm:</span> {{ playerCard?.engine_size }}</div>
-        <div class="property"><span>0 to 100 km/h:</span> {{ playerCard?.zero_to_hundred }}</div>
-        <div class="property"><span>Cylinders:</span> {{ playerCard?.num_cylinders }}</div>
-        <div class="property"><span>Power:</span> {{ playerCard?.power }}</div>
-        <div class="property"><span>Max RPM:</span> {{ playerCard?.regime }}</div>
-      </div>
+     
     </div>
     
     <div id="ai-card" class="card">
-      <div class="card-image"> <!-- Placeholder for the image -->
+        <div class="card-header">
+          <div id="category" class="property-header">{{ playerCard?.cat }}</div>
+          <div id="model" class="property-header">{{ playerCard?.model }}</div>
+        </div>
+        <div class="card-image"> 
+            <img [src]="playerCardImage" alt="Car Image">
+        </div>
+        <div class="card-properties">
+          <div class="property"><span>Max km/h:</span> {{ playerCard?.max_speed }}</div>
+          <div class="property"><span>ccm:</span> {{ playerCard?.engine_size }}</div>
+          <div class="property"><span>0 to 100 km/h:</span> {{ playerCard?.zero_to_hundred }}</div>
+          <div class="property"><span>Cylinders:</span> {{ playerCard?.num_cylinders }}</div>
+          <div class="property"><span>Power:</span> {{ playerCard?.power }}</div>
+          <div class="property"><span>Max RPM:</span> {{ playerCard?.regime }}</div>
+        </div>
       </div>
-      <div class="card-properties">
-        <div class="property">{{ aiCard?.cat }}</div>
-        <div class="property">{{ aiCard?.model }}</div>
-        <div class="property"><span>Max km/h:</span> {{ aiCard?.max_speed }}</div>
-        <div class="property"><span>ccm:</span> {{ aiCard?.engine_size }}</div>
-        <div class="property"><span>0 to 100 km/h:</span> {{ aiCard?.zero_to_hundred }}</div>
-        <div class="property"><span>Cylinders:</span> {{ aiCard?.num_cylinders }}</div>
-        <div class="property"><span>Power:</span> {{ aiCard?.power }}</div>
-        <div class="property"><span>Max RPM:</span> {{ aiCard?.regime }}</div>
-      </div>
-    </div>
+      
+      
     
     <div id="controls">
       <button (click)="playTurn('max_speed')">Max km/h</button>

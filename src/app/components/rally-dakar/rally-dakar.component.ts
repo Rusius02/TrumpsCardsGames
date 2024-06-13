@@ -14,6 +14,7 @@ export class RallyDakarComponent {
   game!: Game;
   playerCard!: Car;
   aiCard!: Car;
+  playerCardImage: string | undefined;
 
   constructor(private carService: CarService) {}
   ngOnInit() {
@@ -30,8 +31,12 @@ export class RallyDakarComponent {
       this.game = new Game(cars);
       this.shuffleDeck();
       this.dealInitialCards();
+      this.setPlayerCardImage();
   }
 
+  setPlayerCardImage() {
+      this.playerCardImage = 'D:/Programmation/typescript/AceTrumps/RallyDakar/trumps-rallye-dakar/src/assets/img/Bowler_wildcat/bowlerWildcat.jpg';
+  }
   playTurn(stat: keyof Car) {
     const result = this.game.playTurn(stat);
     if (!result) return;

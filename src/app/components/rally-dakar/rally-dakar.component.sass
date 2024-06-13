@@ -15,6 +15,8 @@
   flex-direction: column
   justify-content: center
   align-items: center
+  border-radius: 20px
+  background-color: dimgrey
 
   .card-image
     width: 100%
@@ -33,6 +35,54 @@
       span
         font-weight: bold
 
+.card-header
+  width: 100%
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 10px
+  background-color: dimgrey
+  color: white
+  font-size: bold
+  border-radius: 20px
+  border-bottom: 1px solid #ccc
+
+  #category
+    position: relative
+    width: 40px
+    text-align: left
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    background-color: red
+    color: white
+    padding: 5px
+    &:after
+      content: ''
+      position: absolute
+      top: 0
+      right: -10px
+      width: 0
+      height: 100%
+      border-top: 20px solid transparent
+      border-bottom: 20px solid transparent
+      border-left: 10px solid red
+
+  #model
+    flex-grow: 1
+    text-align: right
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+
+.card-image
+  flex: 1
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: #e0e0e0
+  margin: 10px 0
+  width: 100% 
 #controls
   margin-top: 20px
 
